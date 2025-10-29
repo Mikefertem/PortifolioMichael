@@ -1,0 +1,53 @@
+/* ===== SOBRE (FOTO) ===== */
+.sobre-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 40px;
+}
+
+.sobre-texto {
+  flex: 1 1 55%;
+  text-align: left;
+}
+
+.sobre-foto {
+  flex: 1 1 35%;
+  display: flex;
+  justify-content: center;
+}
+
+.sobre-foto img {
+  width: 260px;
+  height: 260px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #7f00ff;
+  box-shadow: 0 0 25px rgba(127, 0, 255, 0.6);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.sobre-foto img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 40px rgba(127, 0, 255, 0.9);
+}
+
+/* ===== ANIMAÇÃO DE SCROLL ===== */
+section {
+  opacity: 0;
+  transform: translateY(60px);
+  transition: all 0.8s ease;
+}
+
+section.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ===== MENU BTN (mobile futuramente) ===== */
+.menu-btn {
+  display: none;
+  cursor: pointer;
+}

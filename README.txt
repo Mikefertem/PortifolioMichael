@@ -8,7 +8,7 @@ Arquivos incluidos:
 
 INSTRUCOES RAPIDAS:
 1) Extraia a pasta e abra index.html no VS Code (Live Server recomendado).
-2) Para alterar o número do WhatsApp, edite js/scripts.js e troque '5598999999999' pelo seu numero (ex: 5511999999999).
+2) Para alterar o número do WhatsApp, edite js/scripts.js e troque '5561981088950' pelo seu numero (ex: 5511999999999).
 3) Para trocar a foto, substitua img/michael.jpg pelo seu arquivo.
 
 Boa sorte!
